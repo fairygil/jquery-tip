@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+/*弹出tip的样式*/
+.tip {background-color:#fffced;position: absolute;z-index: 1010;border: 1px solid #fffccc;display:none;clear:both;padding-right: 16px}
+.tip_title {padding-top: 3px;}
+.tip_title p {padding-left: 3px;}
+.tip_close {
+	margin: 0px 0px 0px 0px; 
+	text-decoration: none; 
+	color: #999; 
+	font-size: 13px;
+	line-height: 1;
+	position: absolute; top: 0; right: 0;
+	cursor: pointer;
+}
+
+.tip_close:hover { 
+	font-weight: bold;
+}
+.tip_subStitle {}
+.success{background:url('new_css/img/icon25.png') no-repeat;width: 16px;height: 16px;margin-left: 5px;margin-top: 4px;float: left;}
+.failed{background:url('new_css/img/icon11.png') no-repeat;width: 16px;height: 16px;margin-left: 5px;margin-top: 4px;float: left;}
+.alert{background:url('new_css/img/icon06.png') no-repeat;width: 16px;height: 16px;margin-left: 5px;margin-top: 4px;float: left;}

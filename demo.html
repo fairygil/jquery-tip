@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title>new tooltip style</title>
+	<link rel="stylesheet" href="./tip.css" />
+</head>
+<body>
+<h2>This is a demo for new tooltip jquery plugin!</h2>
+<h3 style="width: 100%; text-align:right;">written by liujiao!</h3>
+<div>
+	<a href="javascript:;" id="clickMe">click me!</a>
+</div>
+<script src="./jquery.js"></script>
+<script src="./tip.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("#clickMe").click(function() {
+			$(this).tip({
+				"title" : "And then the tip box is showing now!"
+			});
+		});
+	});
+</script>
+</body>
+</html>
